@@ -5,6 +5,7 @@
    justify-content: center;
    background: 	#8A2BE2;
    height:100px;
+   width: 100%;
    position: sticky;
    top:0;
 
@@ -33,16 +34,27 @@
 #donate-bot{ height: 90px; }
 
 .foot
-{  width: %100;
+{  
     display: flex;
     justify-content: center;
 	width: 100%;
 	background:#8A2BE2; 
+	height: 100px;
+	
+	
+
 	
 	
 	
 }
 .foot a { 
 			padding-right: 1%;
+			line-height: 100px;
+			height:20%;
+			padding: 20px;
+
 
  }
+
+
+ body{ height: 30000px; }
