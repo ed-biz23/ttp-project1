@@ -1,0 +1,57 @@
+body{
+    margin:0px; padding:0px;
+}
+h1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(56, 51, 51);
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.donation-container{
+    width: 100vw;
+}
+.donation-info{
+    background-image: url("../assets/together.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 300px;
+}
+.donation-facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+    margin: auto;
+    width: 80%;
+    border: 3px solid purple;
+    padding: 10px;
+    text-align: center;
+}
+.fact1{
+    background-image: url("../assets/money.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+}
+.fact2{
+    background-image: url("../assets/puple-ribbon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+}
+.fact3{
+    background-image: url("../assets/research.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+}
