@@ -123,3 +123,42 @@ body {
   border: solid rgba(102, 51, 153, 0.8);
   background-color: rgba(236, 18, 65, 0.8);
 }
+
+/* Contact Page */
+/* 7 rows 3 columns grid */
+
+.contact-us {
+  grid-area: 1/2/2/3;
+  text-align: end;
+}
+.contact-info {
+  display: grid;
+  grid-template: repeat(7, 1fr) / 1fr 1fr 2fr;
+  grid-column-gap: 20px;
+  margin-left: 100px;
+}
+.contact-info h2 {
+  grid-area: 1/1/2/2;
+  font-weight: bold;
+}
+.contact-info p {
+  font-weight: bold;
+}
+.edward {
+  grid-area: 2/1/3/2;
+}
+.adelin {
+  grid-area: 3/1/4/2;
+}
+.jhony {
+  grid-area: 4/1/5/2;
+}
+.rafael {
+  grid-area: 2/2/3/3;
+}
+.ba {
+  grid-area: 3/2/4/3;
+}
+.location {
+  grid-area: 2/3/7/4;
+}
