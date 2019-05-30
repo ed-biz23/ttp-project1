@@ -1,0 +1,48 @@
+.nav-container
+{
+
+   display: flex;
+   justify-content: center;
+   background: 	#8A2BE2;
+   height:100px;
+   position: sticky;
+   top:0;
+
+}
+
+#home, #about, #contact{
+	padding-right: 5%;
+	height:20%;
+	line-height: 100px;
+
+
+
+}
+
+#donate
+{
+	line-height: 100px;
+	background: #DC143C;
+	height: 100px;
+}
+
+
+
+}
+
+#donate-bot{ height: 90px; }
+
+.foot
+{  width: %100;
+    display: flex;
+    justify-content: center;
+	width: 100%;
+	background:#8A2BE2; 
+	
+	
+	
+}
+.foot a { 
+			padding-right: 1%;
+
+ }
