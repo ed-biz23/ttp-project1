@@ -1,0 +1,29 @@
+#header_body {
+  width: 100%;
+  height: 300px;
+  background-image: url('../assets/cancer.jpg');
+  background-size: 100% 100%;
+  border: 1px solid white;
+ 
+}
+
+#p_body {
+	text-align: center;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+	font-size: 250%;
+	font-weight: bold;
+}
+
+#p_about {
+	text-align: center;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+	font-size: 100%;
+}
+
+
+img {
+  border-radius: 50%;
+}
+#cancer1 {
+	padding-right: 30px;
+}
