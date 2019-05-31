@@ -1,3 +1,6 @@
+</body>
+</html>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +29,10 @@
 		<img id="cancer2" src="assets/cancer2.jpg" alt="cancerpatient2" width="200" height="200">
 		<img id="cancer3" src="assets/cancer3.jpg" alt="cancerpatient3" width="200" height="200">
 		<img id="cancer4" src="assets/cancer4.jpg" alt="cancerpatient4" width="200" height="200">
-	</p>
+        </p>
+        <button class="btn success" id="successButton">Success</button>
+        <button class="btn default" onclick="myTester()">Default</button>
+      
 
 
         <footer class="foot">
@@ -37,6 +43,18 @@
                 <a href=""> <img src="assets/inst.svg"></a>
             
         </footer>
+
+        
 </body>
+
+<script>
+        let myTester = () => {
+		alert("I have been clicked");
+		document.getElementById("successButton").innerHTML = "New text for Success!"
+                ;
+		alert(document.getElementById("successButton").innerHTML);
+		}
+	</script>
+
 
 </html>
