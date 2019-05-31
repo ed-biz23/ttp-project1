@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body {
+/*body {
   margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
@@ -491,3 +491,45 @@ body {
   left: 3px;
   color: white;
 }
+
+/* -------ABOUT ----- */
+#cancer{
+  background-size: 100% 100%;
+  border: 1px solid white; 
+ 
+}
+
+#p_body {
+  text-align: center;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+  font-size: 250%;
+  font-weight: bold;
+ 
+}
+
+#p_about {
+  text-align: center;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+  font-size: 100%;
+
+}
+ 
+#cancer1 {
+  padding-right: 30px;
+  border-radius: 50%;
+}
+
+#cancer2 {
+  padding-right: 30px;
+  border-radius: 50%;
+}
+#cancer3 {
+  padding-right: 30px;
+  border-radius: 50%;
+}
+#cancer4 {
+  padding-right: 30px;
+  border-radius: 50%;
+}
+
+
